@@ -10,6 +10,6 @@ jobs:
         run: ./gradlew build
       - name: Upload our APK
         uses: actions/upload-artifact@v2.2.0
-         with:
-          name: Release APK
-          path: app/build/outputs/apk/release/app-release-*.apk
+        with:
+         name: Release APK
+         path: app/build/outputs/apk/release/app-release-*.apk
