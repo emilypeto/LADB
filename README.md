@@ -1,3 +1,5 @@
+## This fork exists for the purpose of building an APK with GitHub Actions. Check out the releases page.
+
 # LADB
 A local ADB shell for Android!
 
